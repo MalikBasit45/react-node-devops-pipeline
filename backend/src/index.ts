@@ -8,7 +8,7 @@ const PORT = 4000;
 app.use(cors());
 
 app.get('/api/health', (_req, res) => {
-  res.json({ status: 'OK', message: 'Backend is healthy!' });
+  res.json({ status: 'OK', message: 'Backend is super healthy!' });
 });
 
 app.listen(PORT, () => {
